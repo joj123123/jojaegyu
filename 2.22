@@ -1,0 +1,6 @@
+year = int(input('년 수를 입력하세요: '))
+people = 312032486
+born = 5*365*24*60*60 / 7
+death = 5*365*24*60*60 / 13
+foreginer = 5*365*24*60*60 / 45
+print(people+born-death+foreginer)
