@@ -1,0 +1,6 @@
+sum, tip_rate = input('소계와 팁 비율을 입력하세요 :').split(',')
+sum = float(sum)
+tip_rate = int(tip_rate)
+tip_rate = sum * ((1 / 100) * tip_rate)
+total = sum + tip_rate
+print('팁은 {0:.2f} 이고 총액은 {1:.2f} 입니다.'.format(tip_rate,total))
