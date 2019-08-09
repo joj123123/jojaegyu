@@ -1,0 +1,8 @@
+import time
+
+currentTime = int(time.time())
+currentHour = (currentTime // 60 // 60) % 24
+currentminute = (currentTime // 60) % 60
+
+GMT = int(input("GMT 와 시간대 차이를 입력하세요"))
+print(currentHour+GMT,currentminute)
