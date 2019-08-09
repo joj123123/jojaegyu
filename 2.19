@@ -1,0 +1,5 @@
+invest = int(input('투자금을 입력하세요:'))
+year_rate = float(input('연이율을 입력하세요'))
+year = int(input('년수를 입력하세요:'))
+answer = invest * (1+year_rate/1200)**(year*12)
+print("누적된 가치는{0:.2f}입니다.".format(answer))
