@@ -1,0 +1,5 @@
+month_save = int(input('월 저축액: '))
+answer = 0
+for i in range(6):
+    answer = (answer + month_save) * (1 + 0.00417)
+print('6개월 후 잔고는',answer,'입니다')
