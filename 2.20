@@ -1,0 +1,5 @@
+money,year = input('잔고와 연이율을 입력하시오').split(',')
+money = int(money)
+year = float(year)
+propit = money * (year/1200) * 1000
+print('이자는',propit,'입니다')
