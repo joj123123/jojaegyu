@@ -1,0 +1,5 @@
+money = int(input('약정 금액을 입력하세요: '))
+year_rate = float(input('연이율(%)를 입력하세요: '))
+year = int(input('약정 기간(년)'))
+month = money / (1 + (year_rate/12)/100.0)**(year*12)
+print('월납입금은 {} 입니다.'.format(month))
